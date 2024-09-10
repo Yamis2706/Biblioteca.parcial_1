@@ -45,7 +45,9 @@ public class FincaUQ {
         this.listaTareas = listaTareas;
     }
 
-    public void crearEmpleado( int tipoEmpleado, String nombre, String apellido, String cedula, int edad, double salario, int numeroHorasTrabajo, TipoContrato tipoContrato) {
+    public void crearEmpleado( int tipoEmpleado, String nombre, String apellido,
+                               String cedula, int edad, double salario,
+                               int numeroHorasTrabajo, TipoContrato tipoContrato) {
 
         int resultadoBusqueda = devolverPosicionEmpleado(cedula);
         if (resultadoBusqueda == -1){
@@ -90,11 +92,11 @@ public class FincaUQ {
 
             }
             else
-                System.out.println("Ingrese un valor valido");
+                System.out.println("Ingrese un valor válido");
 
 
         }else {
-            System.out.println("El empleado ya esta creado en el sistema");
+            System.out.println("El empleado ya está creado en el sistema");
         }
     }
 
@@ -123,7 +125,10 @@ public class FincaUQ {
         }
     }
 
-    public void actualizarEmpleado(String cedula, String nuevoNombre, String nuevoApellido, int nuevaEdad, double nuevoSalario, int nuevoNumeroHoras, TipoContrato tipoContrato) {
+    public void actualizarEmpleado(String cedula, String nuevoNombre,
+                                   String nuevoApellido, int nuevaEdad,
+                                   double nuevoSalario, int nuevoNumeroHoras,
+                                   TipoContrato tipoContrato) {
 
         for (Empleado empleado : listaEmpleados){
             if (empleado.getCedula().equals(cedula)){
@@ -155,7 +160,8 @@ public class FincaUQ {
         }
     }
 
-    public void crearTarea(int numeroTarea, String cedulaEmpleado, Date fechaInicio, Date fechaFin, String descripcion) {
+    public void crearTarea(int numeroTarea, String cedulaEmpleado, Date fechaInicio,
+                           Date fechaFin, String descripcion) {
         Tarea tarea = new Tarea();
         tarea.setNumeroTarea(numeroTarea);
         tarea.setFechaInicio(fechaInicio);
