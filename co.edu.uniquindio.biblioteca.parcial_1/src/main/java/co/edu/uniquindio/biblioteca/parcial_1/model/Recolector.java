@@ -1,4 +1,9 @@
 package co.edu.uniquindio.biblioteca.parcial_1.model;
 
-public class Recolector {
+public class Recolector extends Empleado{
+
+    /*Constructor*/
+
+    public Recolector() {
+    }
 }
