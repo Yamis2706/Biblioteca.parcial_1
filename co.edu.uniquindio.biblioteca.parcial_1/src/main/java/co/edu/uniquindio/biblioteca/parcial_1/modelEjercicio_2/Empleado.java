@@ -1,6 +1,6 @@
-package co.edu.uniquindio.biblioteca.parcial_1.model;
+package co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2;
 
-import co.edu.uniquindio.biblioteca.parcial_1.model.enumeracion.TipoContrato;
+import co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2.enumeracion.TipoContrato;
 
 
 public class Empleado {
@@ -19,7 +19,8 @@ public class Empleado {
     public Empleado() {
     }
 
-    public Empleado(String nombre, String apellido, String cedula, int edad, double salario, int numeroHorasTrabajo) {
+    public Empleado(String nombre, String apellido, String cedula, int edad,
+                    double salario, int numeroHorasTrabajo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
@@ -99,7 +100,7 @@ public class Empleado {
         return "Empleado{" +
                 "nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
-                ", cedula='" + cedula + '\'' +
+                ", cédula='" + cedula + '\'' +
                 ", edad=" + edad +
                 ", salario=" + salario +
                 ", numeroHorasTrabajo=" + numeroHorasTrabajo +

@@ -1,6 +1,6 @@
-package co.edu.uniquindio.biblioteca.parcial_1.model;
+package co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2;
 
-import co.edu.uniquindio.biblioteca.parcial_1.model.enumeracion.TipoContrato;
+import co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2.enumeracion.TipoContrato;
 
 import java.util.ArrayList;
 import java.util.Date;
