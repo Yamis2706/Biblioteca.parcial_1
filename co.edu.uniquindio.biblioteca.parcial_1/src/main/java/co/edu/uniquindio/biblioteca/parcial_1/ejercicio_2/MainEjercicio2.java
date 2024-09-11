@@ -68,7 +68,7 @@ public class MainEjercicio2 {
 
     private static FincaUQ inicializarDatosPrueba() {
         FincaUQ fincaUQ = new FincaUQ();
-        fincaUQ.setNombre("El obrero");
+        fincaUQ.setNombre("El Paraíso");
 
         return fincaUQ;
     }
