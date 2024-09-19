@@ -1,4 +1,4 @@
-package co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2;
+package co.edu.uniquindio.biblioteca.parcial_1.model;
 
 public class Administrador extends Empleado {
 

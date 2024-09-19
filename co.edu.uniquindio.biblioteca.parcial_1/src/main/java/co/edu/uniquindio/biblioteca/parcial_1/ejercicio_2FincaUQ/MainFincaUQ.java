@@ -1,13 +1,13 @@
-package co.edu.uniquindio.biblioteca.parcial_1.ejercicio_2;
+package co.edu.uniquindio.biblioteca.parcial_1.ejercicio_2FincaUQ;
 
-import co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2.*;
-import co.edu.uniquindio.biblioteca.parcial_1.modelEjercicio_2.enumeracion.TipoContrato;
+import co.edu.uniquindio.biblioteca.parcial_1.model.*;
+import co.edu.uniquindio.biblioteca.parcial_1.model.enumeracion.TipoContrato;
 
 import java.util.Date;
 import java.util.List;
 
 
-public class MainEjercicio2 {
+public class MainFincaUQ {
     public static void main(String[] args){
         FincaUQ fincaUQ = inicializarDatosPrueba();
 
